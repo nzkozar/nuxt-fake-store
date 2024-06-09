@@ -8,7 +8,7 @@
 <template>
   <div class="row mt-2">
     <div class="col-8">
-      <h2>{{title}}</h2>
+      <h2 class="text-capitalize">{{title}}</h2>
     </div>
     <div class="col-4 text-end">
       <a class="btn btn-success" :href="linkMore">{{$t("horizontal_product_list.show_more")}}</a>

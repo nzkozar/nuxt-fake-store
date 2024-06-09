@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const route = useRoute()
 
 </script>
 
@@ -10,9 +11,9 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<!--        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active"
+            <a class="nav-link"
                aria-current="page"
                href="/categories">
               {{$t('nav.categories')}}
@@ -22,7 +23,7 @@
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" :placeholder="$t('nav.search')" aria-label="Search">
           <button class="btn btn-info" type="submit">{{$t("nav.search")}}</button>
-        </form>
+        </form>-->
       </div>
     </div>
   </nav>
